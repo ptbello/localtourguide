@@ -7,9 +7,14 @@
 
 /**
  * Set the content width based on the theme's design and stylesheet.
- */
 if ( ! isset( $content_width ) )
-	$content_width = 640; /* pixels */
+	$content_width = 640; // pixels
+*/
+
+/*
+ * Load custom post types and taxonomy code
+ */
+require( get_template_directory() . '/inc/functions-custom.php' );
 
 /*
  * Load Jetpack compatibility file.
