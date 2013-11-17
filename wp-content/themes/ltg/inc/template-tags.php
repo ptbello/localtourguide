@@ -161,3 +161,15 @@ function ltg_category_transient_flusher() {
 }
 add_action( 'edit_category', 'ltg_category_transient_flusher' );
 add_action( 'save_post', 'ltg_category_transient_flusher' );
+
+/**
+ * Generate "More" link
+ */
+function ltg_more() {
+    ?>
+    <a class="more" href="<?php the_permalink(); ?>">
+        <i class="icon-arrow-right"></i>
+        <?php _e( 'Continue reading', 'ltg' ); ?>
+    </a>
+<?php
+}
