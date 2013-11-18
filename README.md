@@ -2,17 +2,10 @@ localtourguide.io
 ======
 
 This repo is the working code that goes with the presentation I gave at [WP Day 2013 in Bologna](http://www.wpday.it/):
+
 **[WordPress per Startup](http://www.slideshare.net/pierobellomo/wp-per-startup/)**
 
-It's case study in the use of WordPress as a fast and realible tool to build Minimum Viable Products
-*
-*
-*
-**\_strap** is a starter theme for WordPress.
-It has the goal of integrating Twitter's **bootstrap** (https://github.com/twitter/bootstrap) into Automattic's **\_s** (https://github.com/Automattic/_s) with the [smallest possible changeset](https://github.com/ptbello/_strap/compare/master).
-
-Like its big brother \_s, \_strap is not intended as Parent theme, rather as starting point to build a custom theme from scratch.
-This means you will have to [replace](https://github.com/Automattic/_s#getting-started) all internal references to \_s with your new theme's name. No worries, you don't have to do it by hand: \_strap includes an automatic process \- just follow the instructions below.
+It's case study in the use of WordPress as a fast and realible tool to build Minimum Viable Products.
 
 Test Drive
 ------------
@@ -28,4 +21,4 @@ Test Drive
 
 Questions
 ------------
-Questions? Open an issue. 
+Questions? [Open an issue](https://github.com/ptbello/localtourguide/issues/new). 
