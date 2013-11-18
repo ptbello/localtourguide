@@ -1,4 +1,4 @@
-localtourguide.io
+Local Tour Guide
 ======
 
 This repo is the working code that goes with the presentation I gave at [WP Day 2013 in Bologna](http://www.wpday.it/):
@@ -13,10 +13,10 @@ Test Drive
 2. Install the following plugins:
     * [Advanced Custom Fields](http://wordpress.org/plugins/advanced-custom-fields/)
     * [Posts 2 Posts](http://wordpress.org/plugins/posts-to-posts/)    
-3. Activate the Local Tour Guide theme
-4. Create a Menu and assign it the "Primary Menu" theme location
-5. Via Tools > Import > WordPress, (install the importer if you haven't and) import /wp-content/themes/ltg/inc/advanced-custom-field-export.xml
-6. Via Settings > Permalink, change to somethong sensible like "Post Name"
+3. Via Tools > Import > WordPress, (install the importer if you haven't and) import /wp-content/themes/ltg/inc/advanced-custom-field-export.xml
+4. Via Settings > Permalink, change to somethong sensible like "Post Name"
+5. Activate the Local Tour Guide theme
+6. Create a Menu and assign it the "Primary Menu" theme location
 7. You're all set. Create a few "Tour" post types and see them appear in the home page  
 
 Questions
